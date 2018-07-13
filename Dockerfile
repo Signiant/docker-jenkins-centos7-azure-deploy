@@ -13,7 +13,6 @@ COPY yum-packages.list /tmp/yum.packages.list
 RUN chmod +r /tmp/yum.packages.list
 RUN yum install -y -q `cat /tmp/yum.packages.list`
 
-RUN npm install -g npm
 RUN npm install -g azure-cli
 
 RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc

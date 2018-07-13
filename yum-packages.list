@@ -12,7 +12,6 @@ glibc
 glibc-common
 libxslt-devel
 libxml2-devel
-npm
 wget
 zip
 unzip
